@@ -1,3 +1,1 @@
-# About these notes
-
-They’re kind of strange.
+About these notes: they’re kind of strange.
