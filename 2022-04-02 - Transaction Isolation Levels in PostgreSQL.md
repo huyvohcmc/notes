@@ -30,7 +30,7 @@ Similar to non-repeatable read, phantom read happens when a transaction executes
 
 #### Serialization anomaly
 
-Serialization anomaly means that transactions **T1** and **T2** interfere and result in an anomaly state (a state that cannot be achieved if you run **T1** before **T2** or **T2** before **T1**).
+Serialization anomaly means that transactions **T1** and **T2** interfere and result in an anomaly state (a state that cannot be achieved when you run **T1** before **T2** or **T2** before **T1**).
 
 ### Isolation Levels Table
 
