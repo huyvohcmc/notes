@@ -14,7 +14,7 @@ A transaction isolation level is defined by the following phenomena:
 - Phantom read
 - Serialization anomaly
 
-PostgreSQL doesn’t implement **_read uncommitted_**, which allows dirty reads, and instead defaults to read committed.
+PostgreSQL doesn’t implement **read uncommitted**, which allows dirty reads, and instead defaults to read committed.
 
 #### Dirty read
 
@@ -40,3 +40,8 @@ Serialization anomaly means that transactions **T1** and **T2** interfere and re
 | Read committed   | Not possible           | Possible           | Possible               | Possible              |
 | Repeatable read  | Not possible           | Not possible       | Allowed, but not in PG | Possible              |
 | Serializable     | Not possible           | Not possible       | Not possible           | Not possible          |
+
+### References
+
+- https://www.postgresql.org/docs/current/transaction-iso.html
+- https://sqlperformance.com/2014/04/t-sql-queries/the-serializable-isolation-level
