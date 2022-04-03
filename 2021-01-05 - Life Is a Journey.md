@@ -2,7 +2,8 @@
 
 “Life is a journey, not a destination.” - Ralph Waldo Emerson
 
-```go
-var x uint64 = 11
-for ; x != 10; x++ {}
+```c
+for (int num = 11; num != 10; ++num) {
+  printf("Life is a journey, not a destination.");
+}
 ```
