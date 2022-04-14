@@ -1,3 +1,3 @@
 ### About these notes ✍️
 
-Most of my notes are about programming and software engineering. Usually, they are concepts that I find difficult to learn, or have a difficult time comprehending because they are abstract and required a lot of reasoning.
+Hi! I'm Huy. This is my notes, things I mostly write for myself. They usually belong to programming or software engineering topics, and are meant to be short. I will keep increment this stuff for as long as I can.
